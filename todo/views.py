@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from .modals import Item
+from .models import Item
 from .forms import ItemForm
 
 
